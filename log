@@ -2,3 +2,9 @@ Thu Mar 17 13:26:32 HSP 2022:
  tests:  0|6
 total_score: 0/70
 baeb544
+Thu Mar 17 20:54:34 HSP 2022: 
+ list.c | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+ tests:  0|6
+total_score: 0/70
+f931aa6
