@@ -302,3 +302,9 @@ list.c:67:6: note: declared here
 cc1.exe: all warnings being treated as errors
 Compilation failed
 b709a68
+Fri Mar 18 23:42:14 HSP 2022: 
+ list.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  9|3
+total_score: 35/70
+d7e8663
