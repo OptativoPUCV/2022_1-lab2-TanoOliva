@@ -102,9 +102,6 @@ void * popBack(List * list) {
 }
 
 void * popCurrent(List * list) {
-    while(list->current!=NULL && list->current->next!=NULL){
-        list->current = list->current->next;
-    }
     return NULL;
 }
 
