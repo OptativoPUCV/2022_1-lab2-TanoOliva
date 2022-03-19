@@ -45,7 +45,7 @@ void * firstList(List * list) {
 void * nextList(List * list) {
     Node* ptr=list->head;
     while (ptr != NULL){
-        ptr = asd->next;
+        ptr = ptr->next;
         list->current=ptr;
     }
     return list->current->data;

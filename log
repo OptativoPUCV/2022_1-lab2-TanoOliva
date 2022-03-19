@@ -136,3 +136,8 @@ list.c:48:15: error: 'asd' undeclared (first use in this function)
 list.c:48:15: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 2fc93e7
+Fri Mar 18 23:09:57 HSP 2022: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+4a807a7
