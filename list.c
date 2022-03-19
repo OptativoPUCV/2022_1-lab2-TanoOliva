@@ -43,11 +43,11 @@ void * firstList(List * list) {
 }
 
 void * nextList(List * list) {
-    Node* asd=list->head;
-    if (asd != NULL){
-        asd = asd->next;
+    Node* ptr=list->head;
+    while (ptr != NULL){
+        ptr = asd->next;
+        list->current=ptr;
     }
-    list->current = asd->data;
     return list->current->data;
 }
 

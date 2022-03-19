@@ -125,3 +125,14 @@ Fri Mar 18 23:03:11 HSP 2022:
  1 file changed, 2 insertions(+), 1 deletion(-)
  tests:  0|0
 565b320
+Fri Mar 18 23:09:42 HSP 2022: 
+ list.c | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+In file included from test.c:5:0:
+list.c: In function 'nextList':
+list.c:48:15: error: 'asd' undeclared (first use in this function)
+         ptr = asd->next;
+               ^~~
+list.c:48:15: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+2fc93e7
