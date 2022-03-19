@@ -43,12 +43,10 @@ void * firstList(List * list) {
 }
 
 void * nextList(List * list) {
-    Node* ptr=list->head;
-    while (ptr != NULL && list->head!=NULL){
-        ptr = ptr->next;
-        list->current=ptr;
+    if (list->current != NULL){
+        list->current = list->current->next;
+        return list->current->data;
     }
-    return list->current->data;
 }
 
 void * lastList(List * list) {
@@ -58,12 +56,10 @@ void * lastList(List * list) {
 }
 
 void * prevList(List * list) {
-    Node* ptr=list->tail;
-    while (ptr != NULL && list->tail!=NULL){
-        ptr = ptr->prev;
-        list->current=ptr;
+    if (list->current != NULL){
+        list->current = list->current->prev;
+        return list->current->data;
     }
-    return list->current->data;
 }
 
 void pushFront(List * list, void * data) {
