@@ -421,3 +421,9 @@ list.c:68:24: error: 'dato' undeclared (first use in this function)
 list.c:68:24: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 c15e067
+Sat Mar 19 00:13:25 HSP 2022: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  9|3
+total_score: 35/70
+adc7e92
