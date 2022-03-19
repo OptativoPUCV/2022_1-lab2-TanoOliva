@@ -390,3 +390,17 @@ Fri Mar 18 23:59:50 HSP 2022:
  1 file changed, 7 insertions(+), 8 deletions(-)
  tests:  0|0
 f90e552
+Sat Mar 19 00:01:42 HSP 2022: 
+ list.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:0:
+list.c: In function 'pushFront':
+list.c:75:16: error: 'return' with a value, in function returning void [-Werror]
+     return list->head;
+            ~~~~^~~~~~
+list.c:67:6: note: declared here
+ void pushFront(List * list, void * data) {
+      ^~~~~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+fa33569
