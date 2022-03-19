@@ -58,8 +58,7 @@ void * prevList(List * list) {
     while(aux->next!=list->current){
         aux = aux->next;
     }
-    list->current=list->current->prev;
-    return list->current;
+    return aux->data;
 }
 
 void pushFront(List * list, void * data) {
