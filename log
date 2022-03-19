@@ -404,3 +404,9 @@ list.c:67:6: note: declared here
 cc1.exe: all warnings being treated as errors
 Compilation failed
 fa33569
+Sat Mar 19 00:04:41 HSP 2022: 
+ list.c | 8 --------
+ 1 file changed, 8 deletions(-)
+ tests:  9|3
+total_score: 35/70
+0d98740
