@@ -385,3 +385,8 @@ list.c:68:32: error: expected expression before 'void'
                                 ^~~~
 Compilation failed
 09a0596
+Fri Mar 18 23:59:50 HSP 2022: 
+ list.c | 15 +++++++--------
+ 1 file changed, 7 insertions(+), 8 deletions(-)
+ tests:  0|0
+f90e552
